@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — MLP Creations</title>
+  <meta name="description" content="Get in touch with MLP Creations for custom orders, quotes, and questions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">MLP <span>Creations</span></a>
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p>Custom order, question about a piece, or just want a quote — start here.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+      <div>
+        <!--
+          This is a static site with no backend, so this form hands off to
+          your email app via a mailto: link (opens with the fields already
+          filled in). Replace YOUREMAIL@example.com below with your real
+          address. If you'd rather have submissions land straight in an
+          inbox without opening an email client, swap the form's action for
+          a service like Formspree (https://formspree.io) — or don't worry
+          about it at all once this moves to Shopify/Square, since both
+          platforms come with their own contact/checkout forms built in.
+        -->
+        <form id="contact-form" action="mailto:YOUREMAIL@example.com" method="GET" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Reply-To" required>
+          </div>
+          <div>
+            <label for="item-interest">Item / Category of Interest</label>
+            <input type="text" id="item-interest" name="Item of interest" placeholder="e.g. Custom Adirondack Chair Set">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="body" placeholder="Tell us what you're picturing — size, wood, timeline, budget, anything helpful." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note">Firearm-related engraving requests: please note the make/model in your message. All slide engraving orders require FFL transfer and must comply with applicable law.</p>
+        </form>
+        <div id="form-success">Thanks! Your email app should have opened with your message ready to send — just hit send there to finish.</div>
+      </div>
+
+      <div class="contact-details">
+        <div class="icon-row">
+          <span class="icon">✉️</span>
+          <div><strong>Email</strong><br>[YOUREMAIL@example.com]</div>
+        </div>
+        <div class="icon-row">
+          <span class="icon">📍</span>
+          <div><strong>Location</strong><br>[City, State] — local pickup available on larger pieces</div>
+        </div>
+        <div class="icon-row">
+          <span class="icon">⏱️</span>
+          <div><strong>Typical Turnaround</strong><br>1–2 weeks depending on the piece and current order queue</div>
+        </div>
+        <div class="icon-row">
+          <span class="icon">📱</span>
+          <div><strong>Follow the Shop</strong><br><a href="#">Instagram</a> · <a href="#">Facebook</a> · <a href="#">Etsy</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">MLP Creations</p>
+        <p>Handmade wood goods &amp; custom laser/CNC work.<br>Formerly MLP Woodcraft.</p>
+      </div>
+      <div class="footer-links">
+        <a href="shop.html">Shop</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Etsy</a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 MLP Creations. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

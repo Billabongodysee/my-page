@@ -1,32 +1,178 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Page</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLP Creations — Handmade Wood, Laser &amp; CNC Goods</title>
+  <meta name="description" content="MLP Creations makes end grain cutting boards, Adirondack chairs, custom laser engraving, and CNC signs, bowls &amp; trays — built to order.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">MLP <span>Creations</span></a>
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-    <style>
-      body {
-        background: #111;
-        color: #eee;
-        display: flex;
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: 0;
-        font-family: 'Cinzel', serif;
-      }
+  <section class="hero">
+    <div class="container">
+      <h1>Handmade in the shop, built to last.</h1>
+      <p>End grain cutting boards, Adirondack chairs, and custom laser &amp; CNC work — from the kitchen counter to the range bag.</p>
+      <div class="btn-row">
+        <a href="shop.html" class="btn btn-primary">Shop the Collection</a>
+        <a href="contact.html" class="btn btn-secondary" style="background:transparent;border-color:#fff;color:#fff;">Request a Custom Piece</a>
+      </div>
+    </div>
+  </section>
 
-      h1 {
-        font-size: 2rem;
-        letter-spacing: 1px;
-      }
-    </style>
-  </head>
+  <section>
+    <div class="container">
+      <div class="section-heading">
+        <h2>What We Make</h2>
+        <p>Every piece is built to order in small batches — nothing mass-produced.</p>
+      </div>
+      <div class="grid-3">
+        <a href="shop.html#cutting-boards" class="feature-card">
+          <div class="icon">🪵</div>
+          <h3>Cutting Boards</h3>
+          <p>End grain &amp; inlay end grain boards for the kitchen or as a gift.</p>
+        </a>
+        <a href="shop.html#adirondack-chairs" class="feature-card">
+          <div class="icon">🪑</div>
+          <h3>Adirondack Chairs</h3>
+          <p>Weather-ready outdoor chairs built for the porch or fire pit.</p>
+        </a>
+        <a href="shop.html#laser-engraving" class="feature-card">
+          <div class="icon">⚡</div>
+          <h3>Laser Engraving</h3>
+          <p>Fiber laser work on PMAGs and handgun slides, done by appointment.</p>
+        </a>
+        <a href="shop.html#signs-bowls-trays" class="feature-card">
+          <div class="icon">🪧</div>
+          <h3>Signs, Bowls &amp; Trays</h3>
+          <p>CNC-carved signs, turned bowls, and serving trays.</p>
+        </a>
+        <a href="about.html" class="feature-card">
+          <div class="icon">🛠️</div>
+          <h3>Custom CNC Work</h3>
+          <p>Have an idea? Most pieces on this site started as a custom request.</p>
+        </a>
+        <a href="blog.html" class="feature-card">
+          <div class="icon">📝</div>
+          <h3>From the Shop</h3>
+          <p>Build logs, new services, and behind-the-scenes updates.</p>
+        </a>
+      </div>
+    </div>
+  </section>
 
-  <body>
-    <h1>This is my page. There are many like it, but this one is mine.</h1>
-  </body>
+  <section style="background:var(--color-bg-alt);">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Featured Pieces</h2>
+        <p>A few favorites — see the full shop for everything currently available.</p>
+      </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="thumb"><span class="icon">🪵</span><span class="thumb-label">Photo coming soon</span></div>
+          <div class="product-body">
+            <h3>Compass Inlay Board</h3>
+            <p class="product-price">$145</p>
+            <p class="desc">Multi-species inlay end grain board — a statement piece for any kitchen.</p>
+            <a href="contact.html?item=Compass%20Inlay%20Board" class="btn btn-primary btn-block">Inquire About This Piece</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="thumb"><span class="icon">🪑</span><span class="thumb-label">Photo coming soon</span></div>
+          <div class="product-body">
+            <h3>Classic Adirondack Chair</h3>
+            <p class="product-price">$325</p>
+            <p class="desc">Built from weather-resistant lumber and finished to hold up for years outdoors.</p>
+            <a href="contact.html?item=Classic%20Adirondack%20Chair" class="btn btn-primary btn-block">Inquire About This Piece</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="thumb"><span class="icon">🪧</span><span class="thumb-label">Photo coming soon</span></div>
+          <div class="product-body">
+            <h3>Custom CNC Sign</h3>
+            <p class="product-price">Starting at $60</p>
+            <p class="desc">Personalized carved wood signs for the home, business, or camp.</p>
+            <a href="contact.html?item=Custom%20CNC%20Sign" class="btn btn-primary btn-block">Inquire About This Piece</a>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a href="shop.html" class="btn btn-secondary">View Full Shop</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-heading">
+        <h2>Latest From the Shop</h2>
+        <p>Build logs, new services, and what's coming out of the shop lately.</p>
+      </div>
+      <div class="post-grid">
+        <article class="post-card">
+          <div class="thumb"><span class="icon">🪵</span><span class="thumb-label">Photo coming soon</span></div>
+          <div class="post-body">
+            <span class="post-date">August 2026</span>
+            <h3>From Log to Slab: Where Our Wood Comes From</h3>
+            <p class="excerpt">A look at how hardwood gets picked, milled, and dried before it ever becomes a cutting board.</p>
+            <a href="posts/from-log-to-slab.html">Read More →</a>
+          </div>
+        </article>
+        <article class="post-card">
+          <div class="thumb"><span class="icon">⚡</span><span class="thumb-label">Photo coming soon</span></div>
+          <div class="post-body">
+            <span class="post-date">July 2026</span>
+            <h3>New Service: Fiber Laser Engraving Is Here</h3>
+            <p class="excerpt">We're now offering custom fiber laser engraving on PMAGs and handgun slides. Here's how it works.</p>
+            <a href="posts/laser-engraving-launch.html">Read More →</a>
+          </div>
+        </article>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a href="blog.html" class="btn btn-secondary">Read the Blog</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">MLP Creations</p>
+        <p>Handmade wood goods &amp; custom laser/CNC work.<br>Formerly MLP Woodcraft.</p>
+      </div>
+      <div class="footer-links">
+        <a href="shop.html">Shop</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Etsy</a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 MLP Creations. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
