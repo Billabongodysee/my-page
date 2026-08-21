@@ -4,18 +4,18 @@
    ========================================================= */
 
 :root {
-  --color-bg: #f8f3ea;
-  --color-bg-alt: #efe3d0;
-  --color-card: #fffdf9;
-  --color-text: #2b2118;
-  --color-text-soft: #5c4a3a;
-  --color-walnut: #4a3222;
-  --color-walnut-dark: #302013;
-  --color-accent: #b5651d;
-  --color-accent-dark: #8f4e15;
-  --color-border: #ddccae;
-  --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --color-bg: #f1efe9;
+  --color-bg-alt: #e7e2d6;
+  --color-card: #fffcf8;
+  --color-text: #1c1a17;
+  --color-text-soft: #5b564c;
+  --color-walnut: #17181a;
+  --color-walnut-dark: #0d0e10;
+  --color-accent: #d1481f;
+  --color-accent-dark: #b23c17;
+  --color-border: #ddd6c5;
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --radius: 10px;
   --max-width: 1120px;
 }
@@ -94,7 +94,7 @@ section { padding: 3.5rem 0; }
 
 .site-nav { display: flex; gap: 1.75rem; }
 .site-nav a {
-  color: #f2e9da;
+  color: #e8e6e0;
   font-weight: 600;
   font-size: .95rem;
 }
@@ -139,7 +139,7 @@ section { padding: 3.5rem 0; }
   padding: 5rem 1.5rem;
 }
 .hero h1 { color: #fff; font-size: 2.6rem; max-width: 780px; margin: 0 auto .75rem; }
-.hero p { max-width: 560px; margin: 0 auto 2rem; color: #ead9c2; font-size: 1.1rem; }
+.hero p { max-width: 560px; margin: 0 auto 2rem; color: #c7c3ba; font-size: 1.1rem; }
 .hero .btn-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
 
 .page-hero {
@@ -149,7 +149,7 @@ section { padding: 3.5rem 0; }
   padding: 3.5rem 1.5rem;
 }
 .page-hero h1 { color: #fff; }
-.page-hero p { color: #ead9c2; max-width: 600px; margin: .5rem auto 0; }
+.page-hero p { color: #c7c3ba; max-width: 600px; margin: .5rem auto 0; }
 
 /* ===== Category / feature cards ===== */
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
@@ -169,6 +169,7 @@ section { padding: 3.5rem 0; }
   text-align: center;
 }
 .feature-card .icon { font-size: 2rem; margin-bottom: .5rem; }
+.feature-card p { color: var(--color-text-soft); }
 
 /* ===== Product thumbnails (placeholders — swap for real photos) ===== */
 .thumb {
@@ -180,7 +181,7 @@ section { padding: 3.5rem 0; }
   flex-direction: column;
   gap: .35rem;
   color: #fff;
-  background: repeating-linear-gradient(120deg, var(--color-walnut), var(--color-walnut) 12px, #5a3e2b 12px, #5a3e2b 24px);
+  background: repeating-linear-gradient(120deg, var(--color-walnut), var(--color-walnut) 12px, #2a2b2d 12px, #2a2b2d 24px);
 }
 .thumb .icon { font-size: 2.2rem; }
 .thumb .thumb-label { font-size: .75rem; letter-spacing: .5px; text-transform: uppercase; opacity: .85; }
@@ -242,11 +243,11 @@ section { padding: 3.5rem 0; }
 .about-photo {
   aspect-ratio: 1;
   border-radius: var(--radius);
-  background: repeating-linear-gradient(60deg, var(--color-walnut), var(--color-walnut) 14px, #5a3e2b 14px, #5a3e2b 28px);
+  background: repeating-linear-gradient(60deg, var(--color-walnut), var(--color-walnut) 14px, #2a2b2d 14px, #2a2b2d 28px);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #f2e9da;
+  color: #e8e6e0;
   font-family: var(--font-heading);
   text-align: center;
   padding: 1.5rem;
@@ -287,7 +288,7 @@ textarea { min-height: 140px; resize: vertical; }
 .contact-details .icon-row { display: flex; gap: .75rem; margin-bottom: 1.1rem; align-items: flex-start; }
 
 /* ===== Footer ===== */
-.site-footer { background: var(--color-walnut-dark); color: #ead9c2; margin-top: 4rem; }
+.site-footer { background: var(--color-walnut-dark); color: #c7c3ba; margin-top: 4rem; }
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
@@ -297,6 +298,6 @@ textarea { min-height: 140px; resize: vertical; }
 }
 .footer-brand { color: #fff; font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: .25rem; }
 .footer-links, .footer-social { display: flex; flex-direction: column; gap: .5rem; }
-.footer-links a, .footer-social a { color: #ead9c2; }
+.footer-links a, .footer-social a { color: #c7c3ba; }
 .footer-links a:hover, .footer-social a:hover { color: var(--color-accent); }
 .footer-copy { text-align: center; font-size: .8rem; padding: 1rem 1.5rem; border-top: 1px solid rgba(255,255,255,.1); }
