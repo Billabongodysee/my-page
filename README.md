@@ -1,4 +1,4 @@
-# MLP Creations — Website
+# MLP Made — Website
 
 A simple, no-build-tools website: plain HTML, CSS, and a little vanilla JS.
 No frameworks, no server required — just files you can open in a browser
